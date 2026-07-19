@@ -10,48 +10,13 @@
     <style>
         /* Custom styles for spiritual aesthetic */
         body { font-family: 'Inter', sans-serif; }
-
-        /* Corner images: stacked row above text on mobile, absolute corners on larger screens */
-        .corner-img {
-            height: 90px;
-            width: auto;
-            object-fit: contain;
-            border-radius: 0.5rem;
-        }
-
-        @media (min-width: 640px) {
-            .hero-images {
-                position: absolute;
-                inset: 0;
-                pointer-events: none;
-            }
-            .corner-img {
-                position: absolute;
-                top: 0.5rem;
-                height: 300px;
-                pointer-events: auto;
-            }
-            .corner-left { left: 1rem; }
-            .corner-right { right: 1rem; }
-        }
-
-        @media (min-width: 1024px) {
-            .corner-img {
-                height: 380px;
-            }
-        }
     </style>
 </head>
 <body class="bg-orange-50">
 
     <!-- Header and Hero Section -->
-    <header class="relative bg-white pt-8 sm:pt-16 pb-16 shadow-lg overflow-hidden border-b-4 border-orange-500">
+    <header class="relative bg-white pt-16 pb-16 shadow-lg overflow-hidden border-b-4 border-orange-500">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
-
-            <div class="hero-images flex justify-center items-start gap-4 mb-4 sm:mb-0">
-                <img src="assets/Ganapati.jpg" alt="श्री गणपती" class="corner-img corner-left">
-                <img src="assets/Balaji.jpg" alt="श्री बालाजी" class="corner-img corner-right">
-            </div>
 
             <div class="hero-content">
                 <span class="text-orange-600 text-4xl sm:text-5xl block mb-3 leading-none">ॐ</span>
