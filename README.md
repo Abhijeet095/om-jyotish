@@ -10,7 +10,7 @@ I wanted to give his work a proper online presence, so people looking for a puro
 📞 8830161983
 💬 WhatsApp available on the same number
 
-**Live site:** _add your GitHub Pages link here_
+**Live site:** https://abhijeet095.github.io/om-jyotish/
 
 ---
 
